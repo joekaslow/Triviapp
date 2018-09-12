@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@color/colorAccent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:padding="10dp"
+        android:background="@color/colorPrimary">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/points"
+            android:textColor="#fff"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:textSize="20sp"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/initialScore"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:id="@+id/points"/>
+
+
+    </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="@string/swali1"
+            android:textSize="20sp"
+            android:textAllCaps="true"
+            android:id="@+id/question1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/firstbtn"
+            android:text="@string/jibu1"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:onClick="onButtonClicked"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/secondbtn"
+            android:text="@string/jibu2"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:onClick="onButtonClicked"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="30dp"
+            android:layout_marginLeft="40dp"
+            android:layout_marginRight="40dp"
+            android:id="@+id/thirdbtn"
+            android:text="@string/jibu3"
+            android:textSize="18sp"
+            android:textAllCaps="true"
+            android:onClick="onButtonClicked"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="#fff"
+            android:text="@string/swali2"
+            android:id="@+id/question2"
+            android:textSize="20sp"/>
+
+        <CheckBox
+            android:id="@+id/jay_d"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:text="@string/chec1"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/art_s"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:text="@string/chec2"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/biz_o"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:text="@string/chec3"
+            android:onClick="onCheckboxClicked"/>
+        <CheckBox
+            android:id="@+id/con_k"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#fff"
+            android:textSize="18dp"
+            android:text="@string/chec4"
+            android:onClick="onCheckboxClicked"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/question3"
+        android:textColor="#fff"
+        android:text="@string/swali3"
+        android:textSize="20sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textColor="#fff"
+        android:hint="@string/hinto"
+        android:id="@+id/edit"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:text="@string/swali4"
+        android:textSize="20sp"
+        android:textAllCaps="true"
+        android:id="@+id/question4"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:textColor="#fff">
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:id="@+id/fifthbtn"
+        android:text="@string/jibu4"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/sixthbtn"
+        android:text="@string/jibu5"
+        android:textColor="#fff"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:onClick="onRadioButtonClicked"/>
+    <RadioButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textColor="#fff"
+        android:id="@+id/seventhbtn"
+        android:text="@string/jibu6"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:onClick="onRadioButtonClicked"/>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_alignBottom="@id/seventhbtn"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/SubmitAnswer"
+        android:text="@string/submitbtn"
+        android:textSize="18sp"
+        android:textAllCaps="true"
+        android:onClick="onButtonClick"/>
+
+</LinearLayout>
+</ScrollView>

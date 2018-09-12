@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">TriviaApp</string>
+    <string name="points">Score</string>
+    <string name="initialScore">0</string>
+    <string name="swali1">Whom among the following is not Batman\'s Robin?</string>
+    <string name="jibu1">jason todd</string>
+    <string name="jibu2">dick grayson</string>
+    <string name="jibu3">jaime reyes</string>
+    <string name="swali2">who among the following are the members of the outlaws?</string>
+    <string name="chec1">jason todd</string>
+    <string name="chec2">artemis</string>
+    <string name="chec3">bizarro</string>
+    <string name="chec4">conner kent</string>
+    <string name="swali3">how many lantern corp are there?</string>
+    <string name="swali4">who killed the second robin of batman</string>
+    <string name="jibu4">Bane</string>
+    <string name="jibu5">the riddler</string>
+    <string name="jibu6">joker</string>
+    <string name="hinto">0-9</string>
+    <string name="submitbtn">submit</string>
+</resources>
